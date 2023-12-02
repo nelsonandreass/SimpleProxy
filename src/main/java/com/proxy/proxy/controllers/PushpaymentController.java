@@ -54,6 +54,7 @@ public class PushpaymentController extends RequestController{
 	private RateLimiterService limiter;
 	
 	//Client hit to server, in this case hit ESPAY as Payment Gateway
+	//Getting JSON request body
 	@PostMapping(value = "/v1/pushpayment")
 	public ResponseEntity<?> pushpayment(@RequestBody LinkedHashMap<String, Object> request){
 		String clientIp = this.fetchClientIpAddr();

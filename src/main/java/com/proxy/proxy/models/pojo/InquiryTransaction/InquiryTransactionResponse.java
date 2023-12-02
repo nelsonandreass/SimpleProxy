@@ -1,4 +1,4 @@
-package InquiryTransaction;
+package com.proxy.proxy.models.pojo.InquiryTransaction;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 

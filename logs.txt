@@ -1,0 +1,36 @@
+Request:{sender=SGWYESSISHOP, rq_uuid=4352432523, rq_datetime=2023-11-28, product_code=LINKAJA, order_id=1533232432, customer_id=087888088201, amount=10000}
+Response{"rq_uuid":"4352432523","rs_datetime":"2023-12-02 18:45:40","error_code":"0602","error_message":"Transaction Already Exist!","trx_id":"ESP1701516394T2JQ","customer_id":"087888088201","order_id":"1533232432","trx_status":"IP","amount":"10000.00","approval_code":null,"product_code":"LINKAJA"}||Request:{order_id=[2433243242354324], comm_code=[SGWYESSISHOP], member_id=[SGWYESSISHOP]}
+Response{
+  "rq_uuid": "432432432",
+  "rs_datetime": "2023/11/11",
+  "error_code": "0000",
+  "error_message": "Success",
+  "order_id": "324329423",
+  "ccy": "IDR",
+  "amount": "10000",
+  "descripton": "Success",
+  "signature": "47328947923"
+}||Request:{order_id=[2433243242354324], comm_code=[SGWYESSISHOP], member_id=[SGWYESSISHOP]}
+Response{
+  "rq_uuid": "432432432",
+  "rs_datetime": "2023/11/11",
+  "error_code": "0000",
+  "error_message": "Success",
+  "order_id": "324329423",
+  "ccy": "IDR",
+  "amount": "10000",
+  "descripton": "Success",
+  "signature": "47328947923"
+}||Request:{order_id=[2433243242354324], comm_code=[SGWYESSISHOP], member_id=[SGWYESSISHOP]}
+Response{
+  "rq_uuid": "432432432",
+  "rs_datetime": "2023/11/11",
+  "error_code": "0000",
+  "error_message": "Success",
+  "order_id": "324329423",
+  "ccy": "IDR",
+  "amount": "10000",
+  "descripton": "Success",
+  "signature": "47328947923"
+}||Request:{sender=SGWYESSISHOP, rq_uuid=4352432523, rq_datetime=2023-11-28, product_code=LINKAJA, order_id=42343243242332, customer_id=087888088201, amount=10000}
+Response{"rq_uuid":"4352432523","rs_datetime":"2023-12-02 19:18:19","error_code":"0000","error_message":"Success","trx_id":"ESP170151949805EM","QRLink":"https:\/\/sandbox-api.espay.id\/rest\/digitalnotify\/qr\/?trx_id=ESP170151949805EM","QRCode":"data:image\/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJ8AAACfAQMAAADd1ZmjAAAABlBMVEX\/\/\/8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACVUlEQVRIieWWsY30IBCFxyIggwaQ3AYZLa0b2LUbsFsiow0kGrAzAsvzP\/a8dxcyf3qWtdJ+lkbwePMGor\/8WOY1uAfxVsclFuYsgobUrMtF46odaTWTEIay8Wk8vSofSW1VDFdPE5NNzKn8B9ySmj1ffryCHJJakjOUbSoz\/WyzEzY9ffl+f0Tug+3xrZStvPtfJ9oHLSvo+dTMkY942ppF0PhzSvTwI7az1LJUEkFbYQO1QofgntoZn4WwlX1qxekcKjOTCFJAzTylDDOvnucggzY68jhHcL6IBhZCBkETZaPzMzgTZHCAgGhD6KnVEnl+CyKBkKIdqI1Q9fzU7IWkT5vggfNV8yM0ZWSQyqyzxWICPsFOJIJDpGdoezlQU2NtMog+umAhODnha\/sVwSG2g3j4bAIfjG6SQUPIEKiKHHNTKuudDL0QNaGnCaiGstkQiSB5mB\/JiZ9xx76qDJrm3nFu6QE\/4FyyCCJDDlZrKAwv6XO4Re6GKT8JeuJEyqVbkosg4ndHC6T8rsbfmdwLg3uhrC5L8zBWRSJouY2MFX8DOtFRkEGjsSl1+XPgcoV3U0tg6+KKqe0egXekmZdBImynjT+0wwu9IIZYSSZd9nAOERMki+DAqAnIC+ZmcGhqEYQH5refMbW3eId\/P3z7oezUuvjS+Wvw9UNkCK5JMOEWmyW2T7B0wnZnqHizaQF+1xTAUJaIcclQdcLgk8PVw4EIXoU72\/G1JAncUp7Y2QRL59uf\/bD1jkIvLHXcqSyfq2YnvO9LhIlfuI7fInfCv\/v8A9wreR0orNtnAAAAAElFTkSuQmCC"}||

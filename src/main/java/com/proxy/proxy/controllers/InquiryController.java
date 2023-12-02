@@ -14,15 +14,15 @@ import org.springframework.web.bind.annotation.RestController;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.proxy.proxy.models.pojo.DefaultResponse;
+import com.proxy.proxy.models.pojo.InquiryTransaction.InquiryTransactionResponse;
 import com.proxy.proxy.services.inquirytransaction.InquiryTransactionService;
-
-import InquiryTransaction.InquiryTransactionResponse;
 
 @RestController
 public class InquiryController extends RequestController{
 	@Autowired
 	private InquiryTransactionService inquiryService;
 	
+	//getting urlencoded request body
 	@PostMapping(value = "/api/inquiry")
 	public ResponseEntity<?>inquiry(@RequestBody MultiValueMap<String, String> request){
 		Map<String, String> pair = new HashMap<>();
